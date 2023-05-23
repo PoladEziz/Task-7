@@ -76,15 +76,17 @@ p {
 @media only screen and (max-width: 768px) {
     .main{
         padding: 23px 0px 0px 56px;
+        /* flex-direction: column; */
         display: block;
+        /* justify-content: space-around; */
     }
-    
     .main div{
-        margin-bottom: 60px;
+        margin-bottom: 100px;
     }
     p {
-        left: 38px;
-        bottom: 10px;
+        left: 57px;
+        bottom: 46px;
+        color: white;
     }
 
 }
